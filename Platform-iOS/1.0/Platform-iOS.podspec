@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :svn => "https://192.168.1.181/svn/Magnasoft/Platform-Development/ios-development/trunk/Platform-iOS/"}
   s.requires_arc = true
   s.source_files = '*/*'
-  s.dependency "AFNetworking", "~> 3.8"
+  s.dependency "AFNetworking", "~> 3.1"
   s.dependency "RSKImageCropper"
 end
