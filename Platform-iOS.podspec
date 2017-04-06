@@ -15,4 +15,3 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking", "~> 3.0"
 
 end
-:tag => s.version
