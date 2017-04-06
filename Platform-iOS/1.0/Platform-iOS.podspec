@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :svn => "https://192.168.1.181/svn/Magnasoft/Platform-Development/ios-development/trunk/Platform-iOS/"}
   s.requires_arc = true
-  s.source_files = 'AFRestClient/*.{h,m}'
+  s.source_files = '*/*.{h,m}'
   #s.dependency "AFNetworking", "~> 3.0"
 
 end
