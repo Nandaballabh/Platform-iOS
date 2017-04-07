@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "MQTTKit"
+  s.name         = "MSMQTTKit"
   s.version      = "1.0"
   s.summary      = "This is mqtt library using mosquitto library"
   s.description  = "This is mqtt library using mosquitto library"
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :svn => "https://192.168.1.181/svn/Magnasoft/Platform-Development/ios-development/trunk/Platform-iOS/"}
   s.requires_arc = true
-  s.source_files = 'MQTTKit/*'
+  s.source_files = 'MSMQTTKit/*'
 end
