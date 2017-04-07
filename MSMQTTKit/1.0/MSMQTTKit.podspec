@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :svn => "https://192.168.1.181/svn/Magnasoft/Platform-Development/ios-development/trunk/Platform-iOS/"}
   s.requires_arc = true
   s.source_files = 'MSMQTTKit/*'
+  s.vendored_libraries = 'MSMQTTKit/libmosquitto-1.4.11.a'
+
 end
